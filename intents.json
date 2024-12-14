@@ -1,0 +1,26 @@
+{
+    "intents": {
+        "greetings": {
+            "tags": ["hello", "hi", "hey"],
+            "responses": ["Hello! How can I help you?", "Hi! What's up?", "Hey! What do you need?"]
+        }
+
+    },
+    "create_note": {
+        "tags": ["note", "create", "new"],
+        "responses": ["What is the title of your note?", "What is the content of your note?"]
+    },
+    "add_todo": {
+        "tags": ["todo", "add", "task"],
+        "responses": ["What is the title of your task?", "What is the content of your task?"]
+    },
+    "show_todo": {
+        "tags": ["todo", "show", "tasks"],
+        "responses": ["I will show you your tasks"]
+    },
+    "exit": {
+        "tags": ["exit", "quit", "bye"],
+        "responses": ["Goodbye!"]
+    }
+
+}
